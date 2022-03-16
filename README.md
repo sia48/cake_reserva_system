@@ -25,6 +25,7 @@
 ## Anything Else
  
 テストユーザーを準備してあります。以下のユーザーでログインし、操作してみてください。
+
 店番：0001
 パスワード：systemtest
 
@@ -34,4 +35,5 @@
 ## Author
  
 Shou Shibayama
+
 mail to: sia@bworks.life
