@@ -39,7 +39,13 @@
                     </a>
                 @endif
 
-                <x-jet-button class="ml-4">
+                <a class="underline text-sm text-gray-600 hover:text-gray-900" href="{{ route('register') }}">
+                    {{ '新規登録はこちら' }}
+                </a>
+            </div>
+
+            <div>
+                <x-jet-button class="ml-4 mt-4">
                     {{ __('Log in') }}
                 </x-jet-button>
             </div>
