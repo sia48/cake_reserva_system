@@ -80,7 +80,7 @@ class CakeController extends Controller
         return view('case', compact('user', 'orders', 'id'));
     }
 
-    public function register(Request $request)
+    public function cakeRegister(Request $request)
     {   
         $user = Auth::user();
         $message = '';

@@ -32,7 +32,7 @@ Route::get('case','App\Http\Controllers\CakeController@case')->name('case');
 Route::post('/cakes_import','App\Http\Controllers\CakeController@import')->name('import');
 Route::post('/store','App\Http\Controllers\CakeController@store')->name('store');
 Route::post('/update/{id}','App\Http\Controllers\CakeController@update')->name('update');
-Route::post('/register','App\Http\Controllers\CakeController@register')->name('register');
+Route::post('/cake_register','App\Http\Controllers\CakeController@cakeRegister')->name('cakeRegister');
 Route::post('/search','App\Http\Controllers\CakeController@search')->name('search');
 Route::post('/user_update','App\Http\Controllers\CakeController@userUpdate')->name('user_update');
 

@@ -54,7 +54,7 @@
     </div>
 
     <div class="onebyone" style="display:none">
-        <form action="{{ route('register') }}" method="post" id="register">
+        <form action="{{ route('cakeRegister') }}" method="post" id="register">
             @csrf
             <div class="row justify-content-between mt-5">
                 <input name="number" class="form-control col-md-3" type="text" placeholder="ナンバー">
