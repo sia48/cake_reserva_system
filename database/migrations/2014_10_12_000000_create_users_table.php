@@ -17,7 +17,7 @@ return new class extends Migration
             $table->id();
             $table->string('shop_id');
             $table->string('name');
-            $table->tinyInteger('target_num');
+            $table->tinyInteger('target_num')->default(0);
             $table->string('email')->unique()->nullable();
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password');

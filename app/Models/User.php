@@ -27,6 +27,7 @@ class User extends Authenticatable
         'shop_id',
         'name',
         'password',
+        'target_num'
     ];
 
     /**
